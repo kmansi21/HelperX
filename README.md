@@ -1,51 +1,35 @@
-HelperX Project
-The HelperX Project is built using PHP and MySQL Database. This system is designed to maintain records of housekeepers and manage booking requests for housekeeping services.
+# HelperX Project
 
-Project Modules
-The system consists of two modules:
+The **HelperX Project** is built using **PHP** and **MySQL Database**. This project is designed to keep records of **housekeepers** and manage booking requests for housekeeping services.
 
-1. Admin Module
-Secure admin login
+## Project Modules
 
-Manage housekeepers and service categories
+### Admin Module
+- Admin login
+- Manage housekeepers and categories
+- View and manage housekeeping booking requests
+- Update booking statuses
 
-View and manage housekeeping booking requests
+### User Module
+- **Home** – Welcome page for users
+- **About** – Information about the project
+- **Request for Housekeeper** – Users can send a request for a housekeeper
+- **Contact** – Displays contact details
 
-Update booking statuses
+## How to Run the HelperX Project
+1. **Download** the zip file of the project.
+2. **Extract** the file and rename the folder to **HelperX-main**.
+3. **Copy** the **HelperX-main** folder.
+4. **Paste** it inside your root directory:
+   - **For XAMPP**: `xampp/htdocs`
+5. **Set up the database**:
+   - Open **phpMyAdmin** (`http://localhost/phpmyadmin`).
+   - Create a database with the name: **helperx_db**.
+   - Import the `helperx_db.sql` file (inside the zip package in the SQL folder).
+6. **Run the project in your browser**:
+   - Open: `http://localhost/HelperX-main`
 
-2. User Module
-Home – A welcoming page for users
+## Admin Login Credentials
+- **Username:** `admin`
+- **Password:** `a123`
 
-About – Provides information about HelperX
-
-Request for Housekeeper – Allows users to request housekeeping services
-
-Contact – Displays contact details for customer support
-
-How to Run the HelperX Project
-Download the project zip file.
-
-Extract the zip file and rename the folder to HelperX-main.
-
-Copy the HelperX-main folder.
-
-Paste it inside your root directory:
-
-For XAMPP: xampp/htdocs
-
-Set up the database:
-
-Open phpMyAdmin (http://localhost/phpmyadmin).
-
-Create a new database named helperx_db.
-
-Import the helperx_db.sql file (located in the SQL folder inside the zip package).
-
-Run the project in your browser:
-
-Open: http://localhost/HelperX-main
-
-Admin Login Credentials
-Username: admin
-
-Password: a123
